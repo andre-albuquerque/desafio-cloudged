@@ -1,0 +1,222 @@
+
+.task--container {
+    width: 340px;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: -1px 4px 20px -6px rgb(0 0 0 / 70%);
+    background-color: #ffffff;
+}
+
+.input {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#input--field {
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#add--logo {
+    margin: 1px;
+}
+
+.open--div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tasks--open {
+    font-size: large;
+}
+
+.item {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #99a8bb;
+}
+
+#item--value {
+    width: 248px;
+    margin-right: 5px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-bottom: 9px;
+    display: flex;
+    color: #ffffff
+}
+
+#check--logo {
+    width: 30px;
+    margin: 1px;
+}
+
+#delete--logo {
+    width: 30px;
+    margin: 1px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+
+.closed--div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jobs--done {
+    font-size: large;
+}
+
+#done--value {
+    border: 1px solid;
+    margin: 5px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-bottom: 9px;
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #99a8bb;
+    color: #ffffff
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .task--container {
+        width: 440px;
+    }
+
+    #item--value {
+        width: 340px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .task--container {
+        width: 640px;
+    }
+
+    #input--field {
+        width: 500px;
+    }
+
+    .tasks--open {
+        font-size: x-large;
+    }
+
+    #item--value {
+        width: 540px;
+    }
+
+    .jobs--done {
+        font-size: x-large;
+    }
+
+    #done--value {
+        width: 611px;
+        margin-left: 9px;
+    }
+    
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .task--container {
+        width: 640px;
+    }
+
+    #input--field {
+        width: 500px;
+    }
+
+    .tasks--open {
+        font-size: x-large;
+    }
+
+    #item--value {
+        width: 540px;
+    }
+
+    .jobs--done {
+        font-size: x-large;
+    }
+
+    #done--value {
+        width: 611px;
+        margin-left: 9px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1360px){
+    .task--container {
+        width: 940px;
+    }
+
+    #input--field {
+        width: 700px;
+        margin-left: 10px;
+    }
+
+    .tasks--open {
+        font-size: x-large;
+    }
+
+    #item--value {
+        width: 700px;
+    }
+
+    .jobs--done {
+        font-size: x-large;
+    }
+
+    #done--value {
+        margin-left: 76px;
+        margin-right: 76px;
+    }
+}
+
+@media only screen and (min-width: 1361px){
+    .task--container {
+        width: 1140px;
+    }
+
+    #input--field {
+        width: 700px;
+        margin-left: 10px;
+    }
+
+    .tasks--open {
+        font-size: x-large;
+    }
+
+    #item--value {
+        width: 700px;
+    }
+
+    .jobs--done {
+        font-size: x-large;
+    }
+
+    #done--value {
+        margin-left: 175px;
+        margin-right: 175px;
+    }
+}
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 1 - Conversor de bases numéricas</title>
+</head>
+<body>
+    <h1>Conversor de bases numéricas</h1>
+    <h2>Digite uma base númerica de origem, um valor na base númerica de origem, e a base númerica de destino</h2>
+    <h3>Exemplo: "DEC,10,HEX"</h3>
+    <input id="input" type="text" placeholder="base númerica e valor para conversão">
+    <button type="submit" onclick="converter()">Converter</button>
+    <div id="entrada--user">
+        <h3 id="entrada--title">Base e número de origem:   </h3>
+        <p id='entrada'></p>
+    </div>
+    <div id="output">
+        <h3 id="output--title">Número convertido: </h3>
+        <p id='resultado'></p>
+    </div>
+    <script src="./conversorDeBasesNumericas.js"></script>
+</body>
+</html>
