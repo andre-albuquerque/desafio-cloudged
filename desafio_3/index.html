@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 3</title>
+</head>
+<body>
+    <h1>Envio de cartas</h1>
+
+    <div class="input--container">
+        <textarea id="texto" type="text" placeholder="Texto da carta" maxlength="1500"></textarea>
+
+        <div class="dados--area">
+
+            <div class="label">
+                <div>Remetente:</div>
+                <div>CPF:</div>
+                <div>Data de nascimento:</div>
+                <div>Destinatário:</div>
+            </div>
+    
+            <div class="input">
+                
+                <input id="remetente" type="text" placeholder="Remetente" maxlength="50">            
+                <input id="cpf" type="text" placeholder="CPF" maxlength="15">            
+                <input id="nascimento" type="date" placeholder="Data de nascimento">            
+                <input id="destino" type="text" placeholder="Destinatário" maxlength="50">
+    
+            </div>
+        </div>
+
+        <button type="submit" onclick="enviar()">Enviar</button>
+    </div>
+
+    <h3 id="erro"></h3>
+
+    <div id="output">
+        <h3 id="enviada"></h3>
+        <h3 id='recebida'></h3>
+    </div>
+    <div id="entrada--user">
+        <h3 id="entrada--remetente"></h3>
+        <h3 id="entrada--destinatario"></h3>
+    </div>
+
+    <script src="./main.js"></script>    
+</body>
+</html>

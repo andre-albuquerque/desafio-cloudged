@@ -1,0 +1,195 @@
+body {
+    text-align: center;
+    font-size: larger;
+    background-image: radial-gradient(#fff,#c9c6c6);
+    height: 100vh;
+}
+
+.input--container {
+    border: 1px solid;
+    border-radius: 15px;
+    margin-left: 530px;
+    margin-right: 530px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.dados--area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -25px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 425px;
+    margin-left: 15px;
+    margin-top: -45px;
+}
+
+.label {
+    margin-bottom: 39px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.label > div {
+    margin-bottom: 40px;
+}
+
+#texto {
+    max-width: 575px;
+    height: 325px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    font-size: larger;
+}
+
+#remetente {
+    max-width: 409px;
+    height: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+#cpf {
+    max-width: 409px;
+    height: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+#nascimento {
+    max-width: 409px;
+    height: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+#destino {
+    width: 409px;
+    height: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+button {
+    max-width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#erro {
+    color: red;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+
+    .input--container {
+        margin-left: 30px;
+        margin-right: 29px;
+    }
+
+    #texto {
+        width: 600px;
+        height: 325px;
+    }
+    
+    #remetente {
+        width: 409px;
+        height: 25px;
+    }
+    
+    #cpf {
+        width: 409px;
+        height: 25px;
+    }
+    
+    #nascimento {
+        width: 409px;
+        height: 25px;
+    }
+    
+    #destino {
+        width: 409px;
+        height: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1360px) {
+    .input--container {
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+
+    #texto {
+        width: 600px;
+        height: 325px;
+    }
+    
+    #remetente {
+        width: 409px;
+        height: 25px;
+    }
+    
+    #cpf {
+        width: 409px;
+        height: 25px;
+    }
+    
+    #nascimento {
+        width: 409px;
+        height: 25px;
+    }
+    
+    #destino {
+        width: 409px;
+        height: 25px;
+    }
+
+    button {
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 1361px){
+    .input--container {
+        margin-left: 530px;
+        margin-right: 530px;
+    }
+
+    #texto {
+        width: 600px;
+        height: 325px;
+    }
+    
+    #remetente {
+        width: 409px;
+        height: 25px;
+    }
+    
+    #cpf {
+        width: 409px;
+        height: 25px;
+    }
+    
+    #nascimento {
+        width: 409px;
+        height: 25px;
+    }
+    
+    #destino {
+        width: 409px;
+        height: 25px;
+    }
+
+    button {
+        width: 150px;
+    }
+}
